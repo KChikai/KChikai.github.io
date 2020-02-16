@@ -356,10 +356,26 @@ footer {
     overflow: hidden;
 }
 
+#lead-profile-img {
+    position: inherit;
+    z-index: 10;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-image: url("../images/chikai_kozo.jpg");
+    background-size: contain;
+    border-radius: 50%;
+    top: 15%;
+}
+
 #lead-content {
     position: absolute;
     z-index: 10;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -982,6 +998,11 @@ footer {
 
 // Extra Small Devices
 @media only screen and (max-width : 480px) {
+
+    #lead-profile-img {
+        width: 100px;
+        height: 100px;
+    }
 
     #lead-content {
         h1 {
