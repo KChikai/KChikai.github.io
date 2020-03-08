@@ -36,6 +36,7 @@
 // Define base and accent colors
 $base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
+$lead-color-background: #063d6d;
 
 // Define background colors
 $background: #fff;
@@ -409,7 +410,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: rgba($lead-color-background, 1.0);
     z-index: 1;
 }
 
@@ -472,6 +473,12 @@ footer {
     p {
         color: $text;
         margin: 0;
+    }
+
+    ul {
+      color: $text;
+      text-align: left;
+      list-style-type: circle;
     }
 }
 
@@ -919,6 +926,11 @@ footer {
 
         p {
             text-align: left;
+        }
+
+        ul {
+          text-align: left;
+          list-style-type: circle;
         }
     }
 

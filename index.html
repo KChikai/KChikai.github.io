@@ -75,7 +75,32 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                      ソフトウェアエンジニア．
+                      日系メーカーでソフトウェア開発職に従事している社会人2年目です．
+                      学生時代は情報系学科で自然言語処理を専攻しており，対話システムの研究をしていました．
+                      ソフトウェア開発全般/Webアプリケーション/機械学習(自然言語処理/画像分析/データマイニング)に興味があります．
+                    　</br></br>
+                    </p>
+                    <p>
+                      <b>所持資格</b></br>
+                      <ul>
+                        <li>基本情報技術者</li>
+                        <li>応用情報技術者</li>
+                        <li>AtCoder緑コーダー</li>
+                        <li>TOEIC 695点</li>
+                        <li>普通自動車免許/中型二輪車免許/大型二輪車免許</li>
+                      </ul>
+                    </p>
+                    <p>
+                      </br>
+                      <b text-align=left"">趣味</b></br>
+                      <ul>
+                        <li>ゲーム：スプラ/マリカ/MGS/モンハン/エスコンなどのアクション系が多いです．</li>
+                        <li>野球観戦：地元が福岡なので贔屓球団はホークスです．好きな選手は明石健司選手です．</li>
+                        <li>音楽鑑賞：洋楽邦楽問わず広く浅くいろんなジャンルを聞きます．家の中ではAirPods付けっ放しです．この前気づかずにシャワー入ってしまい壊しかけました．</li>
+                        <li>ジム：筋トレ目的ですが，運動後のスーパー銭湯の方が好きになってる説あります．</li>
+                        <li>バイク：YZF-R25に乗ってます．最近は遠出できてないです．．．</li>
+                        <li>動画編集：最近勉強したいと思ってます．</li>
+                      </ul>
                     </p>
                 </div>
             </div>
@@ -86,25 +111,17 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <!-- <div data-date="September 2017 – March 2018">
-                <h3>大阪大学情報科学研究科</h3>
-                <h4>Software Engineer</h4>
-                <p>
-                    自身の所属する研究室ホームページ制作．
-                    Django/Python/HTML/CSS/JS/nginx/Dockerの技術使用．
-                </p>
-            </div> -->
-
             <div data-date="April 2018 – Latest">
                 <h3>日系輸送用機器メーカー</h3>
                 <h4>Software Engineer</h4>
                 <p>
-                    1.エンドユーザ向け自社製品の設定/カスタマイズを行うWPFアプリケーション設計/開発
-                    2.工場生産
-                    3.Android OS/iOSアプリケーションとnRFモジュールのBluetooth LE®︎通信改善
+                  <ul>
+                    <li>エンドユーザ向け自社製品の設定/カスタマイズを行うWPFアプリケーション設計/開発</li>
+                    <li>工場生産用WPFアプリケーションの設計/開発</li>
+                    <li>Android OS/iOSアプリケーションとnRF無線モジュールのBluetooth LE®︎通信改善</li>
+                  </ul>
                 </p>
             </div>
-
         </div>
     </div>
     <!-- End #experience -->
@@ -177,7 +194,7 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Webサイト制作</h3>
+                        <h3>Website Design</h3>
                         <p>
                           自身の所属する<a href="http://www-bigdata.ist.osaka-u.ac.jp/ja/home/">研究室ホームページ</a>の制作を担当．
                           Django/Python/HTML/CSS/JS/nginx/Dockerの技術使用．
@@ -196,12 +213,13 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>対話システム</h3>
+                        <h3>Research of ChatBot</h3>
                         <p>
                           修士研究の実装コードをGithub上に公開中．
                           学習環境をDockerにより管理することで，インフラ環境のインストールを，
                           実行ファイルを用いることで学習⇨テスト⇨実行をそれぞれ容易にしている．
                           Chainer/Theanoライブラリ使用．
+                          使用用法は<a href="https://github.com/KChikai/Responsive-Dialogue-Generation/blob/master/readme_jp/README.md">レジュメ</a>参照．
                         </p>
                         <a href="https://github.com/KChikai/Responsive-Dialogue-Generation">View Project</a>
                         <!-- <a href="#">View Project</a> -->
@@ -212,16 +230,17 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/social_graph.png" />
+                        <img src="images/force-graph.gif" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Visualize a Socal Graph on Twitter</h3>
                         <p>
-                            D3.jsによるTwitterのフォロー/フォロイー可視化Webサイトの作成．
-
+                          D3.jsによるTwitterのフォロー/フォロイー可視化Webサイトの作成．
+                          Twitterからクローリングしたユーザ情報を元に，
+                          各フォロアーがスパムアカウントであるかどうかをソーシャルグラフ上に可視化表示する．
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/OnizukaLab/makoto">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -238,6 +257,25 @@
                             RNNの初期実装としてChainerのSeq2SeqシステムをCornell Movie-Dialogs Corpusに適応した実装コードをGithub上に公開．
                         </p>
                         <a href="https://github.com/OnizukaLab/SimpleSeq2Seq">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/web-crawler.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Making Web Crawlers</h3>
+                        <p>
+                            研究に利用した各種SNSのAPIを用いたデータクローリング用スクリプト．
+                            API経由で取得したデータをローカルDB(MongoDB)にストアする．
+                        </p>
+                        <a href="https://github.com/KChikai/facebook-crawler">Chat Data Cralwer on Facebook</a></br>
+                        <a href="https://github.com/KChikai/TwitterforPython">Tweet Cralwer</a></br>
+                        <a href="https://github.com/OnizukaLab/YahooCommentCrawler">Yahoo Comment Cralwer</a></br>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -305,7 +343,7 @@
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li> -->
                         <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.slideshare.net/KozoChikai" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <!-- <li>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -329,7 +367,10 @@
     <script src="js/jquery.particleground.min.js"></script>
     <script type="text/javascript">
         // particleground(document.getElementById('particles');
-        $('#lead-overlay').particleground().css("width", "100%").css("height", "100%");
+        $('#lead-overlay').particleground()
+          .css("width", "100%")
+          .css("height", "100%")
+          .css("dotColor", "#ccc");
         // $('#lead-overlay').particleground({
         //   width: 100%,
         //   height: 100%,
